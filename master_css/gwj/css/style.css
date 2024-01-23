@@ -2684,6 +2684,24 @@ input[type="button"].btn-block {
   .fade:not(.show) {
     opacity: 0; }
 
+    .description{
+      background-color: #ddd;
+      border-radius: 5%;
+      color: #333;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    .description > .row > .col-md-4 > img{
+      max-width: 100%; 
+      height: auto;
+      margin: 10px;
+    }
+
+    .description > .row > .col-md-4 > p{
+      text-align: center;
+    }
+
 .collapse:not(.show) {
   display: none; }
 
