@@ -1,0 +1,166 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'GapyeongWave';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2312-1@1.1/GapyeongWave.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Giants-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/Giants-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HS-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/HS-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root{
+    --naver: #2DB400;
+}
+
+*{
+    margin: 0; padding: 0; 
+}
+
+body{
+    overflow-x: hidden;
+}
+
+#wrap{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.navbar{
+    opacity: 0.8;
+    padding: 0 20px;
+}
+
+
+tr, td{
+    text-align: left !important;
+    font-size: 1.1em;
+    font-family: 'GmarketSansMedium';
+    word-break: keep-all;
+
+}
+
+
+.visual_content{
+    height: 1000px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.visual_content h2{
+    font-size: 4em;
+    color: #fff;
+    font-family: 'Giants-Bold';
+    text-shadow: 2px 2px 4px #222, 2px 2px #333;
+    margin-bottom: 20px;
+    word-break: keep-all;
+}
+.visual_content p{
+    font-size: 1.2em;
+    color: #efefef;
+    font-family: 'GmarketSansMedium';
+    text-shadow: 2px 2px #222, 2px 2px 4px #333;
+    word-break: keep-all;
+
+}
+
+.sub_title{
+    font-family: 'HS-Regular';
+    font-size: 3em;
+
+}
+
+h3{
+    font-size: 2em;
+    font-family: 'GmarketSansMedium';
+
+}
+
+h4{
+    font-family: 'GmarketSansMedium';
+    font-size: 1.2em;
+}
+
+.content1 p{
+    font-family: 'GmarketSansMedium';
+    font-size: 1em;
+
+}
+
+.content1{
+    margin-bottom: 30px;
+    padding: 0 20px;
+
+}
+
+.content1 img{
+    width: 100%;
+    height: 300px;
+    
+}
+
+.content2{
+    padding: 0 20px;
+    margin-bottom: 30px;
+}
+
+
+.content3{
+    padding: 0 20px;
+    margin-bottom: 50px;
+}
+.company_img{
+    height: 500px;
+}
+.company_img img{
+    width: 100%;
+    height: 100%;
+}
+
+.company_info{
+    height: 500px;
+    
+    font-family: 'GmarketSansMedium';
+}
+
+.company_info h3{
+    margin-bottom: 130px;
+    font-weight: bold;
+}
+
+footer{
+    height: 80px; 
+    width: 100%;
+    background-color: var(--naver);}
+.copy{
+    text-align: center;
+    font-size: 1em;
+    line-height: 80px;
+    color: #fff;
+    /* background-color: red; */
+}
