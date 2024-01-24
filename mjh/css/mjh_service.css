@@ -201,8 +201,8 @@ footer{
     text-align: center;
     cursor: pointer;
     position: fixed;
-    bottom: 100px;
-    right: 27px;
+    bottom: 27px;
+    right: 100px;
     display: none;
 }
 
